@@ -18,7 +18,7 @@ use crate::target::Target;
 
 /// Диагностика интернет-связности: определяет, на каком этапе ломается связь.
 #[derive(Parser)]
-#[command(version, about)]
+#[command(version)]
 struct Args {
     /// Цель для проверки уровня приложения: host[:port] или ip[:port] (по умолчанию ya.ru:443)
     target: Option<String>,
