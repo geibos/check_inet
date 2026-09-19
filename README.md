@@ -1,5 +1,7 @@
 # check-inet
 
+[![crates.io](https://img.shields.io/crates/v/check_inet.svg)](https://crates.io/crates/check_inet)
+
 Adaptive internet connectivity diagnostics. Run one binary when something is
 wrong and it pinpoints **which layer** is broken — from the local interface all
 the way up to the application and captive portals.
@@ -10,7 +12,7 @@ of the first failing stage.
 
 ## Install
 
-From crates.io (once published):
+From crates.io:
 
 ```sh
 cargo install check_inet
